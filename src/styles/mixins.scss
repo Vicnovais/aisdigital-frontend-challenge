@@ -1,0 +1,13 @@
+@import "@/styles/variables.scss";
+
+@mixin elevation {
+    box-shadow: 0px 3px 6px $shadow;
+    border: 1px solid $grey-border;
+}
+
+@mixin flex($direction, $align: stretch, $justify: flex-start) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
