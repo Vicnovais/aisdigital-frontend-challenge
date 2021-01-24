@@ -24,7 +24,7 @@ Os diagramas a seguir mostram a arquitetura proposta para os componentes e para 
 
 ![Componentes](https://user-images.githubusercontent.com/7889190/105641478-ecf1af00-5e62-11eb-8ca5-f894e89f4d2b.png)
 
-### Components
+### Componentes
 
 **1. SearchInput:** componente responsável pela pesquisa por nome
 
@@ -64,7 +64,7 @@ Para obter os dados das cartas, foi utilizada a API pública [Pokémon TCG](http
 
 **1. Actions**
 - SEARCH: responsável pela ação de busca por nome (via API)
-- GET_ALL: responsável pela ação de buscar todas as cartas (via API)
+- GET_ALL: responsável pela ação de obter todas as cartas (via API)
 - DETAIL: responsável pela ação de buscar o detalhe da carta (via API)
 - NEXT_PAGE: responsável por avançar uma página dos dados
 - PREV_PAGE: responsávle por retroceder uma página dos dados
@@ -140,7 +140,7 @@ npm run test:unit
 ### Testes E2E (Cypress)
 Para executar os testes E2E do projeto, basta executar o comando a seguir.
 
-IMPORTANTE: por limitações da API pública utilizada, é possível que alguns testes falhem por conta das múltiplas requisições que são feitas.
+IMPORTANTE: por limitações da API pública utilizada, é possível que alguns testes falhem por conta das múltiplas requisições que são feitas seguidamente.
 
 ```
 npm run test:e2e
@@ -155,51 +155,3 @@ Para executar o comando de lint do projeto, basta executar o comando a seguir:
 ```
 npm run lint
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# aisdigital-frontend-challenge
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
