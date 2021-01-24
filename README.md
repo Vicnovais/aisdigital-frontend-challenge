@@ -107,6 +107,10 @@ O diagrama a seguir mostra como os componentes e views do app se relacionam com 
 
 A versão em produção deste projeto pode ser visualizada em: https://aisdigital-frontend-challenge.netlify.app
 
+## Localização/Internacionalização
+
+O aplicativo está preparado para a tradução em português e em inglês. Para configurar o idioma do aplicativo basta alterar a chave VUE_APP_LOCALE do arquivo .env presente na raiz do projeto (pt_BR = Português; en_US = Inglês).
+
 
 ## Instalando e Executando
 Para instalar o projeto, basta baixá-lo localmente a partir deste repositório e executar na pasta do projeto o comando a seguir:
